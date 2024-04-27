@@ -161,7 +161,7 @@
       renderer="colorManagement: true, physicallyCorrectLights, logarithmicDepthBuffer: true"
       xr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
-        <video id="RickRolledVideo" crossorigin="anonymous" preload="auto" autoplay="false" loop style="opacity: 1;" src="./assets/SwaggARRickRoll.mp4" playsinline></video>
+        <video id="RickRolledVideo" crossorigin="anonymous" preload="auto" autoplay="false" loop style="opacity: 1;" src="./assets/SwaggARRickRoll1.mp4" playsinline></video>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;"
@@ -170,7 +170,7 @@
       <a-entity id="aentity" mytarget mindar-image-target="targetIndex: 0" class="clickable">
 
         <a-plane id="rickRoll" src="#RickRolledVideo" material="transparent: false; opacity: 0" position="0 0 0" width="1.01" height="1.313" rotation="0 0 0"
-          animation="property: opacity; from: 0.0; to: 1.0; loop: false; dur: 2000; autoplay: false; startEvents: bganimstart"></a-plane>
+          animation="property: opacity; from: 0.0; to: 1.0; loop: false; dur: 500; autoplay: false; startEvents: bganimstart"></a-plane>
         
       </a-entity>
     </a-scene>
